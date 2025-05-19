@@ -87,3 +87,8 @@ section.header a {
   height: 70px;
   width: unset;
 }
+
+.disclaimer {
+  font-size: 0.7rem;
+  margin-bottom: 0;
+}
