@@ -135,13 +135,13 @@
 
 
   <section id="c2">
-    <h2>PyRun.cloud challenge</h2>
+    <h1>PyRun.cloud challenge (@URV)</h1>
 
     <p>The goal of this challenge is to demonstrate what can be done in the pyrun.cloud environment.
     We will assess both technical quality and social impact of the proposed solution.
     We outline three main goals:</p>
 
-    <h3>1. Serverless Data processing pipeline</h3>
+    <h2>1. Serverless Data processing pipeline</h2>
 
     Implement a Serverless Data processing pipeline in Lithops inside pyrun.cloud. Lithops is ideally suited for larga parallel data manipullation
     using serverless functions (like ETLs previous to AI training or inference). We recommend to process data in parallel from object storage.
@@ -150,13 +150,13 @@
     Use the Data Cockpit tool inside pyrun to select the data source using open data repositories like AWS registry for open data.
 
 
-    <h3>2. Data-driven resource optimization</h3>
+    <h2>2. Data-driven resource optimization</h2>
     An important goal of Serverless Data Processing is to be efficient in the use of resources, and to achieve high resource utilization. Such hugh resource utilization
     will imply reduced economic costs thanks to the pay as you go serverless model. Try to optimize you serverless pipeline by provisioning the right amount of resources.
     In many cases, this can be achieved in Lithops by identifying the right chunk size for dynamic data partitioning.  Here, you can leverage the Data cockpit benchmark tool
     that uses probing to find ideal chunk size. You can also use pyrun monitoring services to optimize resource utilization in your pipeline.
 
-    <h3>3. Serverless AI</h3>
+    <h2>3. Serverless AI</h2>
 
     Finally, you must run a Serverless AI pipeline that involves training or inference that benefits from the previously developed Serverless Data processing pipeline.
     Here, you can run AI code inside Lithops, run your machine learning code in a Dask cluster in pyRun, or run your AI code (Pytorch, vLLM, TensorFlow) inside pyrun
