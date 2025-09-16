@@ -73,6 +73,11 @@ section.header a {
   max-height: 100px; 
 }
 
+.column svg {
+  max-width: 100%;
+  max-height: 100px; 
+}
+
 .column.left-aligned div{
   position:relative;
   float: left;
